@@ -34,11 +34,6 @@ builds:
     id: "cli"
     main: ./cmd/cli
     binary: bin/resh-cli
-    #     goarch: 
-    #       - 386
-    #       - amd64
-    #       - arm
-    #       - arm64
 
 # signs:
 #   - artifacts: checksum
@@ -47,7 +42,7 @@ builds:
 # looks like xmas
 archives:
 - files:
-  - ./*
+        #  - ./*
   - conf/*
   - conf/**/*
   - data/*
