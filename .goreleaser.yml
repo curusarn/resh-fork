@@ -42,7 +42,7 @@ builds:
 # looks like xmas
 archives:
 - files:
-        #  - ./*
+  - ./Makefile
   - conf/*
   - conf/**/*
   - data/*
