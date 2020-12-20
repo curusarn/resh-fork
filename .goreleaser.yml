@@ -49,15 +49,6 @@ builds:
       - arm
       - arm64
   -
-    id: "config"
-    main: ./cmd/config
-    binary: bin/resh-config
-    goarch: 
-      - 386
-      - amd64
-      - arm
-      - arm64
-  -
     id: "control"
     main: ./cmd/control
     binary: bin/resh-control
